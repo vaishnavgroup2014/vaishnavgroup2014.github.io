@@ -946,8 +946,8 @@ __webpack_require__.r(__webpack_exports__);
 class SharedService {
     constructor(http) {
         this.http = http;
-        this.APIUrl = "http://localhost:53535/api";
-        this.PhotoUrl = "http://localhost:53535/Photos/";
+        this.APIUrl = "https://vaishnavinfotech.azurewebsites.net/api";
+        this.PhotoUrl = "https://vaishnavinfotech.azurewebsites.net/Photos/";
     }
     getDepList() {
         return this.http.get(this.APIUrl + '/department');
